@@ -19,7 +19,7 @@ public class ProdutoModel {
 
     private String nome;
     private String descricao;
-    private BigDecimal preco;
+    private Float preco;
 
     @Enumerated(EnumType.STRING)
     private StatusProduto status;
